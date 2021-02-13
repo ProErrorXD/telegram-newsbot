@@ -50,7 +50,7 @@ def summary(update, context):
         data = response.json()
         #print(i for i in data['Global'])
         
-        context.bot.send_message(chat_id=update.effective_chat.id, text=iter(data['Global'].items()))
+        context.bot.send_message(chat_id=update.effective_chat.id, text=data['Global'].items())
     else: #something went wrong
         context.bot.send_message(chat_id=update.effective_chat.id, text="Error, something went wrong.")
 
