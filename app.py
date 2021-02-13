@@ -79,7 +79,7 @@ def error(bot, update):
 
 bot=Bot(TOKEN)
 try:
-    bot.set_webhook("https://c1ebc47c8423.ngrok.io/"+ TOKEN)
+    bot.set_webhook("https://telegram-newsbot.herokuapp.com/"+ TOKEN)
     
 except Exception as e:
     print(e)
