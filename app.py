@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # telegram bot token
-TOKEN = "1636690419:AAGpb52230vXZO-gt7eijcNy2aFcDhYal4w"
+TOKEN = "2115462714:AAGmlCV6lsaWsakz9j844GiOzn5amFyOibg"
 
 app=Flask(__name__)
 
